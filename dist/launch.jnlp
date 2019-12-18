@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>sendmail</title>
+        <vendor>hiep.lv</vendor>
+        <homepage href=""/>
+        <description>sendmail</description>
+        <description kind="short">sendmail</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="sendmail.jar" main="true"/>
+    <jar href="lib/javax.mail.jar"/>
+<jar href="lib/ojdbc6.jar"/>
+<jar href="lib/ojdbc7.jar"/>
+<jar href="lib/commons-codec-1.13.jar"/>
+<jar href="lib/base64-2.3.8.jar"/>
+<jar href="lib/bouncycastle.jar"/>
+<jar href="lib/bcpkix-jdk15to18-164.jar"/>
+<jar href="lib/bcprov-ext-jdk15on-164.jar"/>
+<jar href="lib/bcprov-ext-jdk15to18-164.jar"/>
+<jar href="lib/bcprov-jdk15on-164.jar"/>
+<jar href="lib/bcprov-jdk15to18-164.jar"/>
+<jar href="lib/flying-saucer-pdf-9.1.18.jar"/>
+<jar href="lib/itextpdf-5.4.3.jar"/>
+<jar href="lib/jsoup-1.6.0.jar"/>
+<jar href="lib/java-rt-jar-stubs-1.5.0.jar"/>
+</resources>
+    <application-desc main-class="sendmail.main">
+    </application-desc>
+</jnlp>
